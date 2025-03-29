@@ -48,6 +48,10 @@ export const User = styled.div`
         align-items: center;
         margin-top: 3px;
 
+        .role{
+          text-transform: uppercase;
+        }
+
         > svg {
             margin-right: 5px;
         }

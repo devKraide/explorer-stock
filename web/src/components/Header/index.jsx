@@ -15,7 +15,7 @@ export function Header() {
                 <User>
                     <span>Olá, <strong>{user.name}</strong></span>
                     <small>
-                        <FiUser /> Perfil do usuário
+                        <FiUser /> Perfil de <div className="role">:   {user.role} </div> 
                     </small>
                 </User>
             </aside>
